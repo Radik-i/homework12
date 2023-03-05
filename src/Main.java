@@ -13,7 +13,5 @@ public class Main {
         book1.setPublishingYear(1905);
 
         System.out.println("Название: " + book1.getBookName() + "  Автор: " + book1.getAuthor().getSurname() + " " + book1.getAuthor().getName() + "  год: " + book1.getPublishingYear());
-
     }
-
 }
